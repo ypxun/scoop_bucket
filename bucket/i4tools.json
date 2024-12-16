@@ -42,7 +42,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://$matchPartialurl/i4Tools8_v$version_Setup_x64.exe#/dl.7z"
+                "url": [
+                    "https://$matchPartialurl/i4Tools8_v$version_Setup_x64.exe#/dl.7z"
+                ]
             }
         }
     }
