@@ -37,6 +37,6 @@
                 "url": "https://github.com/kingToolbox/WindTerm/releases/download/$match1-prerelease/WindTerm_$version_Windows_Portable_x86_64.zip"
             }
         },
-        "extract_dir": "WindTerm_$version"
+        "extract_dir": "WindTerm_$match1.0"
     }
 }
