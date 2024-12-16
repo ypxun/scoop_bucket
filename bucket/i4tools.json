@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://d-app6.i4.cn/i4tools/V8/8.32/i4Tools8_v8.32_Setup_x64.exe#/dl.7z",
             "hash": "0bdac35e815d5e704d0153fae20f0c226e3a4f35147ab6c351c5794b12898837"
-        },
-        "32bit": {
-            "url": "https://d-app6.i4.cn/i4tools/V8/8.32/i4Tools8_v8.32_Setup_x86.exe#/dl.7z",
-            "hash": "9c238bc336c936e11a1c4064c14681394b4aa9b540384ad043568c9c14b297fd"
         }
     },
     "bin": "i4Tools.exe",
@@ -47,9 +43,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://$matchPartialurl/i4Tools8_v$version_Setup_x64.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://$matchPartialurl/i4Tools8_v$version_Setup_x86.exe#/dl.7z"
             }
         }
     }
