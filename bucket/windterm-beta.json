@@ -13,8 +13,7 @@
     "shortcuts": [
         [
             "WindTerm.exe",
-            "WindTerm",
-            "windterm"
+            "WindTerm"
         ]
     ],
     "post_install": [
@@ -29,12 +28,12 @@
     "checkver": {
         "url": "https://api.github.com/repositories/214011414/releases",
         "jsonpath": "$.[?(@.prerelease==true)]..browser_download_url",
-        "regex": "WindTerm_([\\d]+\\.[\\d]+\\.[\\d]+_Prerelease_[\\d])_Windows_Portable"
+        "regex": "WindTerm_([\\d]+\\.[\\d]+\\.[\\d]+_Prerelease_[\\d]+)_Windows_Portable"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$match1-prerelease/WindTerm_$version_Windows_Portable_x86_64.zip"
+                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$match1-prerelease-$match2/WindTerm_$version_Windows_Portable_x86_64.zip"
             }
         },
         "extract_dir": "WindTerm_$match1"
